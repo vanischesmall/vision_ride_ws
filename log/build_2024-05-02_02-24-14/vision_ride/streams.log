@@ -1,0 +1,25 @@
+[0.713s] Invoking command in '/home/vanische/ros2_ws/src/vision_ride': PYTHONPATH=/home/vanische/ros2_ws/build/vision_ride/prefix_override:/home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/vision_ride build --build-base /home/vanische/ros2_ws/build/vision_ride/build install --record /home/vanische/ros2_ws/build/vision_ride/install.log --single-version-externally-managed install_data
+[1.005s] running egg_info
+[1.006s] writing ../../build/vision_ride/vision_ride.egg-info/PKG-INFO
+[1.006s] writing dependency_links to ../../build/vision_ride/vision_ride.egg-info/dependency_links.txt
+[1.006s] writing entry points to ../../build/vision_ride/vision_ride.egg-info/entry_points.txt
+[1.007s] writing requirements to ../../build/vision_ride/vision_ride.egg-info/requires.txt
+[1.007s] writing top-level names to ../../build/vision_ride/vision_ride.egg-info/top_level.txt
+[1.010s] reading manifest file '../../build/vision_ride/vision_ride.egg-info/SOURCES.txt'
+[1.011s] adding license file 'LICENSE'
+[1.012s] writing manifest file '../../build/vision_ride/vision_ride.egg-info/SOURCES.txt'
+[1.012s] running build
+[1.012s] running build_py
+[1.014s] running install
+[1.014s] running install_lib
+[1.017s] running install_data
+[1.017s] running install_egg_info
+[1.020s] removing '/home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride-0.0.0-py3.10.egg-info' (and everything under it)
+[1.020s] Copying ../../build/vision_ride/vision_ride.egg-info to /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride-0.0.0-py3.10.egg-info
+[1.021s] running install_scripts
+[1.043s] Installing glasses script to /home/vanische/ros2_ws/install/vision_ride/lib/vision_ride
+[1.043s] Installing jst4dof script to /home/vanische/ros2_ws/install/vision_ride/lib/vision_ride
+[1.043s] Installing odriver script to /home/vanische/ros2_ws/install/vision_ride/lib/vision_ride
+[1.043s] Installing process script to /home/vanische/ros2_ws/install/vision_ride/lib/vision_ride
+[1.044s] writing list of installed files to '/home/vanische/ros2_ws/build/vision_ride/install.log'
+[1.062s] Invoked command in '/home/vanische/ros2_ws/src/vision_ride' returned '0': PYTHONPATH=/home/vanische/ros2_ws/build/vision_ride/prefix_override:/home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/vision_ride build --build-base /home/vanische/ros2_ws/build/vision_ride/build install --record /home/vanische/ros2_ws/build/vision_ride/install.log --single-version-externally-managed install_data

@@ -1,0 +1,6 @@
+[console_scripts]
+glasses = vision_ride.glasses:main
+jst4dof = vision_ride.jst4dof:main
+odriver = vision_ride.odriver:main
+process = vision_ride.process:main
+

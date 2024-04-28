@@ -1,0 +1,58 @@
+[0.677s] Invoking command in '/home/vanische/ros2_ws/src/vision_ride': PYTHONPATH=/home/vanische/ros2_ws/build/vision_ride/prefix_override:/home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/vision_ride build --build-base /home/vanische/ros2_ws/build/vision_ride/build install --record /home/vanische/ros2_ws/build/vision_ride/install.log --single-version-externally-managed install_data
+[0.932s] running egg_info
+[0.932s] creating ../../build/vision_ride/vision_ride.egg-info
+[0.933s] writing ../../build/vision_ride/vision_ride.egg-info/PKG-INFO
+[0.933s] writing dependency_links to ../../build/vision_ride/vision_ride.egg-info/dependency_links.txt
+[0.933s] writing entry points to ../../build/vision_ride/vision_ride.egg-info/entry_points.txt
+[0.933s] writing requirements to ../../build/vision_ride/vision_ride.egg-info/requires.txt
+[0.933s] writing top-level names to ../../build/vision_ride/vision_ride.egg-info/top_level.txt
+[0.933s] writing manifest file '../../build/vision_ride/vision_ride.egg-info/SOURCES.txt'
+[0.935s] reading manifest file '../../build/vision_ride/vision_ride.egg-info/SOURCES.txt'
+[0.935s] adding license file 'LICENSE'
+[0.936s] writing manifest file '../../build/vision_ride/vision_ride.egg-info/SOURCES.txt'
+[0.936s] running build
+[0.936s] running build_py
+[0.936s] creating /home/vanische/ros2_ws/build/vision_ride/build
+[0.936s] creating /home/vanische/ros2_ws/build/vision_ride/build/lib
+[0.936s] creating /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride
+[0.937s] copying vision_ride/process.py -> /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride
+[0.937s] copying vision_ride/main.py -> /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride
+[0.937s] copying vision_ride/glasses.py -> /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride
+[0.937s] copying vision_ride/odriver.py -> /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride
+[0.937s] copying vision_ride/__init__.py -> /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride
+[0.937s] copying vision_ride/jst4dof.py -> /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride
+[0.937s] creating /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules
+[0.937s] copying vision_ride/submodules/__init__.py -> /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules
+[0.937s] running install
+[0.938s] running install_lib
+[0.939s] creating /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride
+[0.939s] copying /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/process.py -> /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride
+[0.939s] copying /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/main.py -> /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride
+[0.939s] creating /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules
+[0.939s] copying /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules/__init__.py -> /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules
+[0.939s] copying /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/glasses.py -> /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride
+[0.939s] copying /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/odriver.py -> /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride
+[0.939s] copying /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/__init__.py -> /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride
+[0.939s] copying /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/jst4dof.py -> /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride
+[0.940s] byte-compiling /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/process.py to process.cpython-310.pyc
+[0.941s] byte-compiling /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/main.py to main.cpython-310.pyc
+[0.941s] byte-compiling /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules/__init__.py to __init__.cpython-310.pyc
+[0.941s] byte-compiling /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/glasses.py to glasses.cpython-310.pyc
+[0.942s] byte-compiling /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/odriver.py to odriver.cpython-310.pyc
+[0.942s] byte-compiling /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/__init__.py to __init__.cpython-310.pyc
+[0.942s] byte-compiling /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/jst4dof.py to jst4dof.cpython-310.pyc
+[0.943s] running install_data
+[0.943s] creating /home/vanische/ros2_ws/install/vision_ride/share/ament_index
+[0.943s] creating /home/vanische/ros2_ws/install/vision_ride/share/ament_index/resource_index
+[0.943s] creating /home/vanische/ros2_ws/install/vision_ride/share/ament_index/resource_index/packages
+[0.943s] copying resource/vision_ride -> /home/vanische/ros2_ws/install/vision_ride/share/ament_index/resource_index/packages
+[0.943s] copying package.xml -> /home/vanische/ros2_ws/install/vision_ride/share/vision_ride
+[0.943s] running install_egg_info
+[0.945s] Copying ../../build/vision_ride/vision_ride.egg-info to /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride-0.0.0-py3.10.egg-info
+[0.946s] running install_scripts
+[0.965s] Installing glasses script to /home/vanische/ros2_ws/install/vision_ride/lib/vision_ride
+[0.965s] Installing jst4dof script to /home/vanische/ros2_ws/install/vision_ride/lib/vision_ride
+[0.965s] Installing odriver script to /home/vanische/ros2_ws/install/vision_ride/lib/vision_ride
+[0.966s] Installing process script to /home/vanische/ros2_ws/install/vision_ride/lib/vision_ride
+[0.966s] writing list of installed files to '/home/vanische/ros2_ws/build/vision_ride/install.log'
+[0.983s] Invoked command in '/home/vanische/ros2_ws/src/vision_ride' returned '0': PYTHONPATH=/home/vanische/ros2_ws/build/vision_ride/prefix_override:/home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/vision_ride build --build-base /home/vanische/ros2_ws/build/vision_ride/build install --record /home/vanische/ros2_ws/build/vision_ride/install.log --single-version-externally-managed install_data

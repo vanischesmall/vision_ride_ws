@@ -1,0 +1,47 @@
+[0.663s] Invoking command in '/home/vanische/ros2_ws/src/vision_ride': PYTHONPATH=/home/vanische/ros2_ws/build/vision_ride/prefix_override:/home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/vision_ride build --build-base /home/vanische/ros2_ws/build/vision_ride/build install --record /home/vanische/ros2_ws/build/vision_ride/install.log --single-version-externally-managed install_data
+[1.008s] running egg_info
+[1.009s] writing ../../build/vision_ride/vision_ride.egg-info/PKG-INFO
+[1.009s] writing dependency_links to ../../build/vision_ride/vision_ride.egg-info/dependency_links.txt
+[1.009s] writing entry points to ../../build/vision_ride/vision_ride.egg-info/entry_points.txt
+[1.010s] writing requirements to ../../build/vision_ride/vision_ride.egg-info/requires.txt
+[1.010s] writing top-level names to ../../build/vision_ride/vision_ride.egg-info/top_level.txt
+[1.012s] reading manifest file '../../build/vision_ride/vision_ride.egg-info/SOURCES.txt'
+[1.013s] adding license file 'LICENSE'
+[1.014s] writing manifest file '../../build/vision_ride/vision_ride.egg-info/SOURCES.txt'
+[1.014s] running build
+[1.014s] running build_py
+[1.014s] copying vision_ride/odriver.py -> /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride
+[1.015s] creating /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules/ODriveV36
+[1.015s] copying vision_ride/submodules/ODriveV36/configure.py -> /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules/ODriveV36
+[1.015s] copying vision_ride/submodules/ODriveV36/ODriveAPI.py -> /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules/ODriveV36
+[1.015s] copying vision_ride/submodules/ODriveV36/__init__.py -> /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules/ODriveV36
+[1.015s] creating /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules/Joystick4DOF
+[1.015s] copying vision_ride/submodules/Joystick4DOF/API.py -> /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules/Joystick4DOF
+[1.016s] copying vision_ride/submodules/Joystick4DOF/__init__.py -> /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules/Joystick4DOF
+[1.016s] running install
+[1.016s] running install_lib
+[1.017s] creating /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules/ODriveV36
+[1.017s] copying /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules/ODriveV36/configure.py -> /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules/ODriveV36
+[1.017s] copying /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules/ODriveV36/ODriveAPI.py -> /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules/ODriveV36
+[1.018s] copying /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules/ODriveV36/__init__.py -> /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules/ODriveV36
+[1.018s] creating /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules/Joystick4DOF
+[1.018s] copying /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules/Joystick4DOF/API.py -> /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules/Joystick4DOF
+[1.018s] copying /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules/Joystick4DOF/__init__.py -> /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules/Joystick4DOF
+[1.018s] copying /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/odriver.py -> /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride
+[1.019s] byte-compiling /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules/ODriveV36/configure.py to configure.cpython-310.pyc
+[1.019s] byte-compiling /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules/ODriveV36/ODriveAPI.py to ODriveAPI.cpython-310.pyc
+[1.020s] byte-compiling /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules/ODriveV36/__init__.py to __init__.cpython-310.pyc
+[1.021s] byte-compiling /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules/Joystick4DOF/API.py to API.cpython-310.pyc
+[1.021s] byte-compiling /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules/Joystick4DOF/__init__.py to __init__.cpython-310.pyc
+[1.021s] byte-compiling /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/odriver.py to odriver.cpython-310.pyc
+[1.022s] running install_data
+[1.022s] running install_egg_info
+[1.024s] removing '/home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride-0.0.0-py3.10.egg-info' (and everything under it)
+[1.024s] Copying ../../build/vision_ride/vision_ride.egg-info to /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride-0.0.0-py3.10.egg-info
+[1.025s] running install_scripts
+[1.053s] Installing glasses script to /home/vanische/ros2_ws/install/vision_ride/lib/vision_ride
+[1.053s] Installing jst4dof script to /home/vanische/ros2_ws/install/vision_ride/lib/vision_ride
+[1.053s] Installing odriver script to /home/vanische/ros2_ws/install/vision_ride/lib/vision_ride
+[1.053s] Installing process script to /home/vanische/ros2_ws/install/vision_ride/lib/vision_ride
+[1.054s] writing list of installed files to '/home/vanische/ros2_ws/build/vision_ride/install.log'
+[1.071s] Invoked command in '/home/vanische/ros2_ws/src/vision_ride' returned '0': PYTHONPATH=/home/vanische/ros2_ws/build/vision_ride/prefix_override:/home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/vision_ride build --build-base /home/vanische/ros2_ws/build/vision_ride/build install --record /home/vanische/ros2_ws/build/vision_ride/install.log --single-version-externally-managed install_data

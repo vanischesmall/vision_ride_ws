@@ -1,0 +1,45 @@
+running egg_info
+writing ../../build/vision_ride/vision_ride.egg-info/PKG-INFO
+writing dependency_links to ../../build/vision_ride/vision_ride.egg-info/dependency_links.txt
+writing entry points to ../../build/vision_ride/vision_ride.egg-info/entry_points.txt
+writing requirements to ../../build/vision_ride/vision_ride.egg-info/requires.txt
+writing top-level names to ../../build/vision_ride/vision_ride.egg-info/top_level.txt
+reading manifest file '../../build/vision_ride/vision_ride.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/vision_ride/vision_ride.egg-info/SOURCES.txt'
+running build
+running build_py
+copying vision_ride/odriver.py -> /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride
+creating /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules/ODriveV36
+copying vision_ride/submodules/ODriveV36/configure.py -> /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules/ODriveV36
+copying vision_ride/submodules/ODriveV36/ODriveAPI.py -> /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules/ODriveV36
+copying vision_ride/submodules/ODriveV36/__init__.py -> /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules/ODriveV36
+creating /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules/Joystick4DOF
+copying vision_ride/submodules/Joystick4DOF/API.py -> /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules/Joystick4DOF
+copying vision_ride/submodules/Joystick4DOF/__init__.py -> /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules/Joystick4DOF
+running install
+running install_lib
+creating /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules/ODriveV36
+copying /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules/ODriveV36/configure.py -> /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules/ODriveV36
+copying /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules/ODriveV36/ODriveAPI.py -> /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules/ODriveV36
+copying /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules/ODriveV36/__init__.py -> /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules/ODriveV36
+creating /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules/Joystick4DOF
+copying /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules/Joystick4DOF/API.py -> /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules/Joystick4DOF
+copying /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/submodules/Joystick4DOF/__init__.py -> /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules/Joystick4DOF
+copying /home/vanische/ros2_ws/build/vision_ride/build/lib/vision_ride/odriver.py -> /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride
+byte-compiling /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules/ODriveV36/configure.py to configure.cpython-310.pyc
+byte-compiling /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules/ODriveV36/ODriveAPI.py to ODriveAPI.cpython-310.pyc
+byte-compiling /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules/ODriveV36/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules/Joystick4DOF/API.py to API.cpython-310.pyc
+byte-compiling /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/submodules/Joystick4DOF/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride/odriver.py to odriver.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/vision_ride/vision_ride.egg-info to /home/vanische/ros2_ws/install/vision_ride/lib/python3.10/site-packages/vision_ride-0.0.0-py3.10.egg-info
+running install_scripts
+Installing glasses script to /home/vanische/ros2_ws/install/vision_ride/lib/vision_ride
+Installing jst4dof script to /home/vanische/ros2_ws/install/vision_ride/lib/vision_ride
+Installing odriver script to /home/vanische/ros2_ws/install/vision_ride/lib/vision_ride
+Installing process script to /home/vanische/ros2_ws/install/vision_ride/lib/vision_ride
+writing list of installed files to '/home/vanische/ros2_ws/build/vision_ride/install.log'

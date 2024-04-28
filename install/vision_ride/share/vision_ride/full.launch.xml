@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="vision_ride" exec="process"/>
+  <node pkg="vision_ride" exec="odriver"/>
+  <node pkg="vision_ride" exec="glasses"/>
+  <node pkg="vision_ride" exec="jst4dof"/>
+</launch>
