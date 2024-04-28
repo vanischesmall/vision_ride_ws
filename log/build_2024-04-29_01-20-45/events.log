@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.000114] (vision_ride) JobQueued: {'identifier': 'vision_ride', 'dependencies': OrderedDict()}
+[0.000168] (vision_ride) JobStarted: {'identifier': 'vision_ride'}
+[0.099371] (-) TimerEvent: {}
+[0.199604] (-) TimerEvent: {}
+[0.299868] (-) TimerEvent: {}
+[0.400108] (-) TimerEvent: {}
+[0.500332] (-) TimerEvent: {}
+[0.600590] (-) TimerEvent: {}
+[0.651324] (vision_ride) Command: {'cmd': ['/usr/bin/python', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/vision_ride', 'build', '--build-base', '/home/vanische/prjs/vision_ride_ws/build/vision_ride/build', 'install', '--record', '/home/vanische/prjs/vision_ride_ws/build/vision_ride/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vanische/prjs/vision_ride_ws/src/vision_ride', 'env': {'SHELL': '/bin/fish', 'COLORTERM': 'truecolor', 'HYPRLAND_CMD': 'Hyprland', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'XDG_BACKEND': 'wayland', 'QT_WAYLAND_DISABLE_WINDOWDECORATION': '1', 'DESKTOP_SESSION': 'hyprland', 'KITTY_PID': '1267', 'XDG_SEAT': 'seat0', 'PWD': '/home/vanische/prjs/vision_ride_ws/build/vision_ride', 'XDG_SESSION_DESKTOP': 'Hyprland', 'LOGNAME': 'vanische', 'QT_QPA_PLATFORMTHEME': 'qt5ct', 'XDG_SESSION_TYPE': 'wayland', 'KITTY_PUBLIC_KEY': '1:+#9#DH1~~%d*TYcpzlpJ8o9RH51cegxe7ziemL-4', 'MOTD_SHOWN': 'pam', 'HOME': '/home/vanische', 'LANG': 'en_US.UTF-8', '_JAVA_AWT_WM_NONREPARENTING': '1', 'XDG_CURRENT_DESKTOP': 'Hyprland', 'WAYLAND_DISPLAY': 'wayland-1', 'KITTY_WINDOW_ID': '1', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', '_tide_location_color': '\x1b[30m', 'QT_QPA_PLATFORM': 'xcb', '_tide_pad': '', 'XDG_SESSION_CLASS': 'user', 'COLCON': '1', 'TERMINFO': '/usr/lib/kitty/terminfo', 'TERM': 'xterm-kitty', 'USER': 'vanische', 'HYPRLAND_INSTANCE_SIGNATURE': '360ede79d124ffdeebbe8401f1ac4bc0dbec2c91_1714315894', 'DISPLAY': ':1', 'SHLVL': '2', '_tide_color_separator_same_color': '\x1b[90m', 'MOZ_ENABLE_WAYLAND': '1', 'XDG_VTNR': '1', 'XDG_SESSION_ID': '2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DEBUGINFOD_URLS': 'https://debuginfod.archlinux.org', 'QT_AUTO_SCREEN_SCALE_FACTOR': '1', 'PATH': '/home/vanische/.cargo/bin:/home/vanische/.pixi/bin:/home/vanische/.cargo/bin:/home/vanische/.cargo/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/rustup/bin:/home/vanische/.local/share/JetBrains/Toolbox/scripts', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'MAIL': '/var/spool/mail/vanische', 'KITTY_INSTALLATION_DIR': '/usr/lib/kitty', '_': '/usr/bin/env', 'PYTHONPATH': '/home/vanische/prjs/vision_ride_ws/build/vision_ride/prefix_override:/home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages:'}, 'shell': False}
+[0.700700] (-) TimerEvent: {}
+[0.800931] (-) TimerEvent: {}
+[0.810349] (vision_ride) StdoutLine: {'line': b'running egg_info\n'}
+[0.818148] (vision_ride) StdoutLine: {'line': b'writing ../../build/vision_ride/vision_ride.egg-info/PKG-INFO\n'}
+[0.818657] (vision_ride) StdoutLine: {'line': b'writing dependency_links to ../../build/vision_ride/vision_ride.egg-info/dependency_links.txt\n'}
+[0.818905] (vision_ride) StdoutLine: {'line': b'writing entry points to ../../build/vision_ride/vision_ride.egg-info/entry_points.txt\n'}
+[0.819147] (vision_ride) StdoutLine: {'line': b'writing requirements to ../../build/vision_ride/vision_ride.egg-info/requires.txt\n'}
+[0.819380] (vision_ride) StdoutLine: {'line': b'writing top-level names to ../../build/vision_ride/vision_ride.egg-info/top_level.txt\n'}
+[0.836225] (vision_ride) StdoutLine: {'line': b"reading manifest file '../../build/vision_ride/vision_ride.egg-info/SOURCES.txt'\n"}
+[0.836565] (vision_ride) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.837202] (vision_ride) StdoutLine: {'line': b"writing manifest file '../../build/vision_ride/vision_ride.egg-info/SOURCES.txt'\n"}
+[0.837385] (vision_ride) StdoutLine: {'line': b'running build\n'}
+[0.837508] (vision_ride) StdoutLine: {'line': b'running build_py\n'}
+[0.837656] (vision_ride) StdoutLine: {'line': b'copying vision_ride/process.py -> /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride\n'}
+[0.838009] (vision_ride) StdoutLine: {'line': b'copying vision_ride/main.py -> /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride\n'}
+[0.838212] (vision_ride) StdoutLine: {'line': b'copying vision_ride/glasses.py -> /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride\n'}
+[0.838471] (vision_ride) StdoutLine: {'line': b'copying vision_ride/odriver.py -> /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride\n'}
+[0.838759] (vision_ride) StdoutLine: {'line': b'copying vision_ride/__init__.py -> /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride\n'}
+[0.839016] (vision_ride) StdoutLine: {'line': b'copying vision_ride/jst4dof.py -> /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride\n'}
+[0.839263] (vision_ride) StdoutLine: {'line': b'copying vision_ride/submodules/__init__.py -> /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/submodules\n'}
+[0.839524] (vision_ride) StdoutLine: {'line': b'copying vision_ride/submodules/ODriveV36/configure.py -> /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/submodules/ODriveV36\n'}
+[0.839652] (vision_ride) StdoutLine: {'line': b'copying vision_ride/submodules/ODriveV36/ODriveAPI.py -> /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/submodules/ODriveV36\n'}
+[0.839911] (vision_ride) StdoutLine: {'line': b'copying vision_ride/submodules/ODriveV36/__init__.py -> /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/submodules/ODriveV36\n'}
+[0.840150] (vision_ride) StdoutLine: {'line': b'copying vision_ride/submodules/Joystick4DOF/API.py -> /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/submodules/Joystick4DOF\n'}
+[0.840370] (vision_ride) StdoutLine: {'line': b'copying vision_ride/submodules/Joystick4DOF/__init__.py -> /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/submodules/Joystick4DOF\n'}
+[0.840895] (vision_ride) StdoutLine: {'line': b'running install\n'}
+[0.846110] (vision_ride) StdoutLine: {'line': b'running install_lib\n'}
+[0.854308] (vision_ride) StdoutLine: {'line': b'creating /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride\n'}
+[0.854514] (vision_ride) StdoutLine: {'line': b'copying /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/process.py -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride\n'}
+[0.854686] (vision_ride) StdoutLine: {'line': b'copying /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/main.py -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride\n'}
+[0.854899] (vision_ride) StdoutLine: {'line': b'creating /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules\n'}
+[0.854972] (vision_ride) StdoutLine: {'line': b'creating /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules/ODriveV36\n'}
+[0.855071] (vision_ride) StdoutLine: {'line': b'copying /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/submodules/ODriveV36/configure.py -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules/ODriveV36\n'}
+[0.855236] (vision_ride) StdoutLine: {'line': b'copying /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/submodules/ODriveV36/ODriveAPI.py -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules/ODriveV36\n'}
+[0.855321] (vision_ride) StdoutLine: {'line': b'copying /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/submodules/ODriveV36/__init__.py -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules/ODriveV36\n'}
+[0.855488] (vision_ride) StdoutLine: {'line': b'creating /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules/Joystick4DOF\n'}
+[0.855589] (vision_ride) StdoutLine: {'line': b'copying /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/submodules/Joystick4DOF/API.py -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules/Joystick4DOF\n'}
+[0.855643] (vision_ride) StdoutLine: {'line': b'copying /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/submodules/Joystick4DOF/__init__.py -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules/Joystick4DOF\n'}
+[0.855711] (vision_ride) StdoutLine: {'line': b'copying /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/submodules/__init__.py -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules\n'}
+[0.855782] (vision_ride) StdoutLine: {'line': b'copying /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/glasses.py -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride\n'}
+[0.855824] (vision_ride) StdoutLine: {'line': b'copying /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/odriver.py -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride\n'}
+[0.855876] (vision_ride) StdoutLine: {'line': b'copying /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/__init__.py -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride\n'}
+[0.855960] (vision_ride) StdoutLine: {'line': b'copying /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/jst4dof.py -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride\n'}
+[0.856376] (vision_ride) StdoutLine: {'line': b'byte-compiling /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/process.py to process.cpython-311.pyc\n'}
+[0.857258] (vision_ride) StdoutLine: {'line': b'byte-compiling /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/main.py to main.cpython-311.pyc\n'}
+[0.857589] (vision_ride) StdoutLine: {'line': b'byte-compiling /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules/ODriveV36/configure.py to configure.cpython-311.pyc\n'}
+[0.857888] (vision_ride) StdoutLine: {'line': b'byte-compiling /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules/ODriveV36/ODriveAPI.py to ODriveAPI.cpython-311.pyc\n'}
+[0.859183] (vision_ride) StdoutLine: {'line': b'byte-compiling /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules/ODriveV36/__init__.py to __init__.cpython-311.pyc\n'}
+[0.859397] (vision_ride) StdoutLine: {'line': b'byte-compiling /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules/Joystick4DOF/API.py to API.cpython-311.pyc\n'}
+[0.859934] (vision_ride) StdoutLine: {'line': b'byte-compiling /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules/Joystick4DOF/__init__.py to __init__.cpython-311.pyc\n'}
+[0.860161] (vision_ride) StdoutLine: {'line': b'byte-compiling /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules/__init__.py to __init__.cpython-311.pyc\n'}
+[0.860425] (vision_ride) StdoutLine: {'line': b'byte-compiling /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/glasses.py to glasses.cpython-311.pyc\n'}
+[0.860901] (vision_ride) StdoutLine: {'line': b'byte-compiling /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/odriver.py to odriver.cpython-311.pyc\n'}
+[0.861326] (vision_ride) StdoutLine: {'line': b'byte-compiling /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/__init__.py to __init__.cpython-311.pyc\n'}
+[0.861524] (vision_ride) StdoutLine: {'line': b'byte-compiling /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/jst4dof.py to jst4dof.cpython-311.pyc\n'}
+[0.862007] (vision_ride) StdoutLine: {'line': b'running install_data\n'}
+[0.862233] (vision_ride) StdoutLine: {'line': b'copying resource/vision_ride -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/share/ament_index/resource_index/packages\n'}
+[0.862467] (vision_ride) StdoutLine: {'line': b'copying package.xml -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/share/vision_ride\n'}
+[0.862529] (vision_ride) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.871404] (vision_ride) StdoutLine: {'line': b'Copying ../../build/vision_ride/vision_ride.egg-info to /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride-0.0.0-py3.11.egg-info\n'}
+[0.872218] (vision_ride) StdoutLine: {'line': b'running install_scripts\n'}
+[0.901044] (-) TimerEvent: {}
+[0.943467] (vision_ride) StdoutLine: {'line': b'Installing glasses script to /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/vision_ride\n'}
+[0.943655] (vision_ride) StdoutLine: {'line': b'Installing jst4dof script to /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/vision_ride\n'}
+[0.943715] (vision_ride) StdoutLine: {'line': b'Installing odriver script to /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/vision_ride\n'}
+[0.943788] (vision_ride) StdoutLine: {'line': b'Installing process script to /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/vision_ride\n'}
+[0.944201] (vision_ride) StdoutLine: {'line': b"writing list of installed files to '/home/vanische/prjs/vision_ride_ws/build/vision_ride/install.log'\n"}
+[0.965680] (vision_ride) CommandEnded: {'returncode': 0}
+[0.977798] (vision_ride) JobEnded: {'identifier': 'vision_ride', 'rc': 0}
+[0.978450] (-) EventReactorShutdown: {}

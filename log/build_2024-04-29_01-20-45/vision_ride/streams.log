@@ -1,0 +1,66 @@
+[0.652s] Invoking command in '/home/vanische/prjs/vision_ride_ws/src/vision_ride': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/home/vanische/prjs/vision_ride_ws/build/vision_ride/prefix_override:/home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages: _=/usr/bin/env _tide_pad= /usr/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/vision_ride build --build-base /home/vanische/prjs/vision_ride_ws/build/vision_ride/build install --record /home/vanische/prjs/vision_ride_ws/build/vision_ride/install.log --single-version-externally-managed install_data
+[0.810s] running egg_info
+[0.818s] writing ../../build/vision_ride/vision_ride.egg-info/PKG-INFO
+[0.819s] writing dependency_links to ../../build/vision_ride/vision_ride.egg-info/dependency_links.txt
+[0.819s] writing entry points to ../../build/vision_ride/vision_ride.egg-info/entry_points.txt
+[0.819s] writing requirements to ../../build/vision_ride/vision_ride.egg-info/requires.txt
+[0.819s] writing top-level names to ../../build/vision_ride/vision_ride.egg-info/top_level.txt
+[0.836s] reading manifest file '../../build/vision_ride/vision_ride.egg-info/SOURCES.txt'
+[0.836s] adding license file 'LICENSE'
+[0.837s] writing manifest file '../../build/vision_ride/vision_ride.egg-info/SOURCES.txt'
+[0.837s] running build
+[0.837s] running build_py
+[0.838s] copying vision_ride/process.py -> /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride
+[0.838s] copying vision_ride/main.py -> /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride
+[0.838s] copying vision_ride/glasses.py -> /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride
+[0.838s] copying vision_ride/odriver.py -> /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride
+[0.839s] copying vision_ride/__init__.py -> /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride
+[0.839s] copying vision_ride/jst4dof.py -> /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride
+[0.839s] copying vision_ride/submodules/__init__.py -> /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/submodules
+[0.839s] copying vision_ride/submodules/ODriveV36/configure.py -> /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/submodules/ODriveV36
+[0.840s] copying vision_ride/submodules/ODriveV36/ODriveAPI.py -> /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/submodules/ODriveV36
+[0.840s] copying vision_ride/submodules/ODriveV36/__init__.py -> /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/submodules/ODriveV36
+[0.840s] copying vision_ride/submodules/Joystick4DOF/API.py -> /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/submodules/Joystick4DOF
+[0.840s] copying vision_ride/submodules/Joystick4DOF/__init__.py -> /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/submodules/Joystick4DOF
+[0.841s] running install
+[0.846s] running install_lib
+[0.854s] creating /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride
+[0.854s] copying /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/process.py -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride
+[0.855s] copying /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/main.py -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride
+[0.855s] creating /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules
+[0.855s] creating /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules/ODriveV36
+[0.855s] copying /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/submodules/ODriveV36/configure.py -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules/ODriveV36
+[0.855s] copying /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/submodules/ODriveV36/ODriveAPI.py -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules/ODriveV36
+[0.855s] copying /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/submodules/ODriveV36/__init__.py -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules/ODriveV36
+[0.855s] creating /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules/Joystick4DOF
+[0.855s] copying /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/submodules/Joystick4DOF/API.py -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules/Joystick4DOF
+[0.856s] copying /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/submodules/Joystick4DOF/__init__.py -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules/Joystick4DOF
+[0.856s] copying /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/submodules/__init__.py -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules
+[0.856s] copying /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/glasses.py -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride
+[0.856s] copying /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/odriver.py -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride
+[0.856s] copying /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/__init__.py -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride
+[0.856s] copying /home/vanische/prjs/vision_ride_ws/build/vision_ride/build/lib/vision_ride/jst4dof.py -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride
+[0.856s] byte-compiling /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/process.py to process.cpython-311.pyc
+[0.857s] byte-compiling /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/main.py to main.cpython-311.pyc
+[0.857s] byte-compiling /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules/ODriveV36/configure.py to configure.cpython-311.pyc
+[0.858s] byte-compiling /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules/ODriveV36/ODriveAPI.py to ODriveAPI.cpython-311.pyc
+[0.859s] byte-compiling /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules/ODriveV36/__init__.py to __init__.cpython-311.pyc
+[0.859s] byte-compiling /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules/Joystick4DOF/API.py to API.cpython-311.pyc
+[0.860s] byte-compiling /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules/Joystick4DOF/__init__.py to __init__.cpython-311.pyc
+[0.860s] byte-compiling /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/submodules/__init__.py to __init__.cpython-311.pyc
+[0.860s] byte-compiling /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/glasses.py to glasses.cpython-311.pyc
+[0.861s] byte-compiling /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/odriver.py to odriver.cpython-311.pyc
+[0.861s] byte-compiling /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/__init__.py to __init__.cpython-311.pyc
+[0.861s] byte-compiling /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride/jst4dof.py to jst4dof.cpython-311.pyc
+[0.862s] running install_data
+[0.862s] copying resource/vision_ride -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/share/ament_index/resource_index/packages
+[0.862s] copying package.xml -> /home/vanische/prjs/vision_ride_ws/install/vision_ride/share/vision_ride
+[0.862s] running install_egg_info
+[0.871s] Copying ../../build/vision_ride/vision_ride.egg-info to /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages/vision_ride-0.0.0-py3.11.egg-info
+[0.872s] running install_scripts
+[0.943s] Installing glasses script to /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/vision_ride
+[0.944s] Installing jst4dof script to /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/vision_ride
+[0.944s] Installing odriver script to /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/vision_ride
+[0.944s] Installing process script to /home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/vision_ride
+[0.944s] writing list of installed files to '/home/vanische/prjs/vision_ride_ws/build/vision_ride/install.log'
+[0.966s] Invoked command in '/home/vanische/prjs/vision_ride_ws/src/vision_ride' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/home/vanische/prjs/vision_ride_ws/build/vision_ride/prefix_override:/home/vanische/prjs/vision_ride_ws/install/vision_ride/lib/python3.11/site-packages: _=/usr/bin/env _tide_pad= /usr/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/vision_ride build --build-base /home/vanische/prjs/vision_ride_ws/build/vision_ride/build install --record /home/vanische/prjs/vision_ride_ws/build/vision_ride/install.log --single-version-externally-managed install_data

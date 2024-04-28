@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 # EASY-INSTALL-ENTRY-SCRIPT: 'vision-ride==0.0.0','console_scripts','glasses'
 import re
 import sys
